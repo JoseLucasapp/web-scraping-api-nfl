@@ -1,0 +1,32 @@
+{
+  "name": "web-scraping-api-nfl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm ./src/app.js",
+    "start": "node -r esm ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLucasapp/web-scraping-api-nfl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLucasapp/web-scraping-api-nfl/issues"
+  },
+  "homepage": "https://github.com/JoseLucasapp/web-scraping-api-nfl#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "puppeteer": "^17.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
